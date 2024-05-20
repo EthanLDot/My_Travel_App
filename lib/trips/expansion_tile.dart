@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_travel_app/new_trip_form.dart';
+import 'package:my_travel_app/trips/new_trip_form.dart';
 
 class TripExpansionTile extends StatefulWidget {
   const TripExpansionTile({super.key});

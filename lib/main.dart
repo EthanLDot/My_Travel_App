@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_travel_app/navigation_menu.dart';
+import 'package:my_travel_app/shared/navigation_menu.dart';
 
 void main() {
   runApp(const MyApp());

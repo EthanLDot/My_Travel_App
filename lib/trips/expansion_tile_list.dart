@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_travel_app/expansion_tile.dart';
+import 'package:my_travel_app/trips/expansion_tile.dart';
 
 class TripExpansionTileList extends StatelessWidget {
   const TripExpansionTileList({super.key});

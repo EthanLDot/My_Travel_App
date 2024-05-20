@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:get/get.dart';
-import 'package:my_travel_app/planned_trips.dart';
+import 'package:my_travel_app/pages/planned_trips.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
