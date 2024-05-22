@@ -9,12 +9,12 @@ class TripExpansionTileList extends StatelessWidget {
     return const SingleChildScrollView(
       child: Column(
         children: <Widget>[
-          TripExpansionTile(),
-          TripExpansionTile(),
-          TripExpansionTile(),
-          TripExpansionTile(),
-          TripExpansionTile(),
-          TripExpansionTile(),
+          TripExpansionTile(number: 1),
+          TripExpansionTile(number: 2),
+          TripExpansionTile(number: 3),
+          TripExpansionTile(number: 4),
+          TripExpansionTile(number: 5),
+          TripExpansionTile(number: 6),
         ],
       ),
     );
