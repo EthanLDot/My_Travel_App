@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:get/get.dart';
 import 'package:my_travel_app/pages/planned_trips.dart';
+import 'package:my_travel_app/pages/sign_out_test.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -63,8 +64,8 @@ class NavigationMenu extends StatelessWidget {
 class NavigationController extends GetxController {
   final Rx<int> selectedIndex = 0.obs;
   final screens = [
+    Container(color: Colors.pink),
     const PlannedTripsPage(),
-    Container(color: Colors.orange),
-    Container(color: Colors.yellow),
+    const SignOutTest(),
   ];
 }

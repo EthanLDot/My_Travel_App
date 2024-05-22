@@ -18,8 +18,10 @@ class DatabaseManager {
       await tripList.get().then((querySnapshot) {
         for (var element in querySnapshot.docs) {
           var data = element.data() as Map<String, dynamic>?;
-          if (data != null && data.containsKey("city")) {
-            tripNames.add(data["city"]);
+          if (data != null &&
+              data.containsKey("city") &&
+              data.containsKey("country")) {
+            tripNames.add(data['city'] + ', ' + data['country']);
           }
         }
       });
